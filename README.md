@@ -1,7 +1,11 @@
 # Logic Minimizer using Quine–McCluskey Algorithm
 
 <p align="center">
-  <img src="https://github.com/HigherIdeal/Logic-minimizer-Quine-McCluskey/releases/latest/download/<GIF_FILE_NAME>.gif" width="720">
+  <img src="./assets/demo_input.gif" width="720">
+</p>
+
+<p align="center">
+  <img src="./assets/demo_result.gif" width="720">
 </p>
 
 10변수 이상의 Boolean logic minimization을 목표로 제작한 C++ 기반 논리최소화 프로그램입니다. 4변수 이하의 논리식은 Karnaugh map으로 비교적 쉽게 처리할 수 있고, 8변수 수준까지는 일부 무료 도구로도 접근할 수 있습니다. 그러나 변수 수가 증가할수록 계산 시간이 길어지거나 결과 검증이 어려운 경우가 많으며, 9변수 이상부터는 유료 프로그램을 사용해야 하는 경우도 많습니다.
